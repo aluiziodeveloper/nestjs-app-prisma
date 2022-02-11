@@ -9,9 +9,11 @@ Informação sobre tecnologia, dicas, tutoriais, mini-cursos e muito mais.
 
 ## Curso de Fundamentos do Framework NestJS - Módulo Prisma
 
-Seja muito bem-vindo ao curso sobre os fundamentos do framework web NestJS.
+Seja muito bem-vindo e bem-vinda ao curso sobre os fundamentos do framework web NestJS.
 
 Eu sou o Jorge Aluizio e estarei contigo nessa jornada de aprendizado com esse framework para Node.js, que vem pouco a pouco conquistando seu espaço junto a comunidade de desenvolvedores de backend com Javascript e Node.js.
+
+Acesse a [página do curso na Udemy](https://www.udemy.com/course/nestjs-do-zero/?referralCode=E243D33202CF4A06C488) para conferir o conteúdo.
 
 ## Objetivo
 
@@ -27,12 +29,14 @@ Faça um clone deste repositório e instale no seu ambiente de desenvolvimento u
 git clone https://github.com/aluiziodeveloper/nestjs-app-prisma.git
 ```
 
-Após clonar o conteúdo do repositório, acesse o diretório criado e efetue a instalação das dependências:
+Após clonar o conteúdo do repositório, acesse o diretório e execute os comandos abaixo:
 
 ```shell
 cd nestjs-app-prisma
 
-docker-compose up
+chmod +x .docker/entrypoint.sh
+
+docker-compose up --build
 ```
 
 Após a execução do comando acima o servidor estará em execução no endereço `http://localhost:3000`.
